@@ -23,6 +23,7 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 20px;
+  margin: 30px;
+  margin-left: 360px;
 }
