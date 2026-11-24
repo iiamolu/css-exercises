@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px;
 }
 
 input {
@@ -44,24 +45,41 @@ input {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 52px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #eeee;
+  padding: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .left-links {
   display: flex;
   gap: 30px;
+  list-style-type: none;
 }
 
 .right-links {
   display: flex;
   gap: 30px;
+  list-style-type: none;
+  padding: 30px;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
